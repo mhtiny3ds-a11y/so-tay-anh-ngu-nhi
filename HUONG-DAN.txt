@@ -1,0 +1,33 @@
+SỔ TAY ANH NGỮ NHÍ – Gói chạy offline
+=====================================
+Sổ tay từ vựng – mẫu câu – hội thoại tiếng Anh cho học sinh tiểu học, Lớp 1–5.
+
+CẤU TRÚC GÓI
+  index.html             Trang chính (toàn bộ nội dung + chức năng)
+  fonts/                 Phông Baloo 2 & Nunito (có dấu tiếng Việt), không cần mạng
+  icons/                 Biểu tượng ứng dụng
+  manifest.webmanifest   Cho phép "cài" lên điện thoại/máy tính như ứng dụng
+  sw.js                  Lưu bộ nhớ đệm để dùng không cần mạng
+
+CÁCH 1 – MỞ NHANH TRÊN MÁY TÍNH
+  Giải nén, bấm đúp vào index.html (mở bằng Chrome hoặc Edge).
+  Đọc, lật thẻ, trắc nghiệm, nghe đọc mẫu đều dùng được.
+  Lưu ý: chức năng LUYỆN ĐỌC BẰNG MICRO thường bị trình duyệt chặn khi mở
+  file trực tiếp – hãy dùng Cách 2 hoặc Cách 3 nếu cần micro.
+
+CÁCH 2 – CHẠY MÁY CHỦ CỤC BỘ (đủ chức năng)
+  Mở cửa sổ lệnh trong thư mục này rồi chạy:
+      python -m http.server 8000
+  Sau đó vào  http://localhost:8000  trên trình duyệt.
+
+CÁCH 3 – ĐƯA LÊN WEB & CÀI LÊN ĐIỆN THOẠI
+  Tải nguyên thư mục lên bất kỳ dịch vụ web tĩnh có HTTPS
+  (GitHub Pages, Netlify, Cloudflare Pages, máy chủ trường...).
+  Mở link trên điện thoại → "Thêm vào màn hình chính" / "Cài đặt ứng dụng".
+  Sau lần mở đầu, ứng dụng chạy được cả khi không có mạng.
+
+GHI CHÚ
+  • Giọng đọc mẫu dùng giọng tiếng Anh có sẵn trên thiết bị; nếu không nghe
+    được, hãy cài thêm giọng English trong cài đặt ngôn ngữ của máy.
+  • Nhận diện giọng nói (micro) hoạt động tốt nhất trên Chrome/Edge, cần mạng.
+  • Tiến độ "đã thuộc" được lưu trong trình duyệt của từng máy.
