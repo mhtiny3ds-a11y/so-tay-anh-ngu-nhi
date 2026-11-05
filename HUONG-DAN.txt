@@ -31,3 +31,7 @@ GHI CHÚ
     được, hãy cài thêm giọng English trong cài đặt ngôn ngữ của máy.
   • Nhận diện giọng nói (micro) hoạt động tốt nhất trên Chrome/Edge, cần mạng.
   • Tiến độ "đã thuộc" được lưu trong trình duyệt của từng máy.
+
+CẬP NHẬT NỘI DUNG
+  Chỉ cần tải đè file index.html mới lên kho GitHub → Commit changes.
+  Thiết bị có mạng sẽ tự nhận bản mới ở lần mở tiếp theo.
